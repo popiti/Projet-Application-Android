@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOne.GameOneQ5">
+
+    <CheckBox
+        android:id="@+id/cbCourage_Q5"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:text="@string/CB1_Q5"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView1Q5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbIntel_Q5"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="@string/CB2_Q5"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView1Q5"
+        app:layout_constraintTop_toBottomOf="@+id/cbCourage_Q5" />
+
+    <CheckBox
+        android:id="@+id/cbComique_Q5"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="@string/CB3_Q5"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView1Q5"
+        app:layout_constraintTop_toBottomOf="@+id/cbIntel_Q5" />
+
+    <Button
+        android:id="@+id/btSuivant_Q5"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/btsuivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1Q5"
+        android:layout_width="317dp"
+        android:layout_height="230dp"
+        android:background="#A81C0707"
+        android:fontFamily="casual"
+        android:text="@string/Question5"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btPreced_Q5"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/btprecedent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

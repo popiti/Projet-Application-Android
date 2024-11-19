@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameChoice">
+
+    <ImageButton
+        android:id="@+id/imageButtonQuizzOne"
+        android:layout_width="172dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/gameOneButtonImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614"
+        app:srcCompat="@drawable/game1" />
+
+    <TextView
+        android:id="@+id/textChoiceQuizz"
+        android:layout_width="357dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="90dp"
+        android:background="#FA000000"
+        android:text="@string/textChoiceQuizz"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonQuizzOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonQuizzTwo"
+        android:layout_width="179dp"
+        android:layout_height="147dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imageButtonQuizzTwo"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonQuizzOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonQuizzOne"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonQuizzOne"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/game2"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="388dp"
+        android:layout_height="263dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vue_ville"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonQuizzTwo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

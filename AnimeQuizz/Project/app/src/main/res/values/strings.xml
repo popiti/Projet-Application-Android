@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name" translatable="false">Anime Quizz</string>
+    <string name="boutonAcceuil">Start</string>
+    <string name="checkboxAcceuil">Save data</string>
+    <string name="switchLangage" translatable="false">English</string>
+    <string name="frLangage" translatable="false">Francais</string>
+    <string name="gameOneButtonImg" translatable="false">1er Quizz</string>
+    <string name="gameTwoButtonImg">2eme Quizz</string>
+    <string name="textChoiceQuizz">Choose between the two quizzes. The first will immerse you in a world that will determine which character you most resemble, while the second quiz will test your general knowledge of anime.</string>
+    <string name="imageButtonQuizzTwo" translatable="false">2ème Quizz</string>
+    <string name="gametwo_q1">What is the name of the cuddly toy that accompanies Ichigo in Bleach?</string>
+    <string name="reponse1_q1" translatable="false">Klone</string>
+    <string name="reponse2_q1" translatable="false">Kon</string>
+    <string name="reponse3_q1" translatable="false">Kinta</string>
+    <string name="reponse4_q1" translatable="false">Kishta</string>
+    <string name="gametwo_q2">In the anime "Death Note," what is the name of the main character who kills anyone by writing their name on it in a notebook?</string>
+    <string name="reponse1_q2" translatable="false">Luffy</string>
+    <string name="reponse2_q2" translatable="false">Light Yagami</string>
+    <string name="reponse3_q2" translatable="false">Naruto</string>
+    <string name="reponse4_q2" translatable="false">Natsu</string>
+    <string name="buttong2q1">Next</string>
+    <string name="konImg" translatable="false">kon</string>
+    <string name="rideau_droiteG2q1" translatable="false" />
+    <string name="buttong2q2">Next</string>
+    <string name="gametwo_q3">Who is the mangaka behind \"My Neighbor Totoro\" and \"Princess Mononoke\"?</string>
+    <string name="reponse1_q3" translatable="false">Isao Takahata</string>
+    <string name="reponse2_q3" translatable="false">Mamoru Hosoda</string>
+    <string name="reponse3_q3" translatable="false">Hayao Miyazaki</string>
+    <string name="reponse4_q3" translatable="false">Makoto Shinkai</string>
+    <string name="buttong2q3">Next</string>
+    <string name="countdown" translatable="false">10</string>
+    <string name="countdownq2" translatable="false">10</string>
+    <string name="countdownq1" translatable="false">10</string>
+    <string name="buttong2q4">Next</string>
+    <string name="countdownq4" translatable="false">10</string>
+    <string name="gametwo_q4">In \"One Piece\", what is the name of Luffy\'s pirate ship?</string>
+    <string name="reponse1_q4" translatable="false">Thousand Sunny</string>
+    <string name="reponse2_q4" translatable="false">Going Merry</string>
+    <string name="reponse3_q4" translatable="false">Red Force</string>
+    <string name="reponse4_q4" translatable="false">Oro Jackson</string>
+    <string name="choix_1" translatable="false">Choix 1</string>
+    <string name="choix_3" translatable="false">Choix 3</string>
+    <string name="choix_5" translatable="false">Choix 5</string>
+    <string name="choix_2" translatable="false">Choix 2</string>
+    <string name="choix_4" translatable="false">Choix 4</string>
+    <string name="choix_6" translatable="false">Choix 6</string>
+    <string name="Question1">What\'s your favourite kind of anime?</string>
+    <string name="Question2">What is your favourite anime studio?</string>
+    <string name="Question3">Rate your interest in these anime genres (1-10):</string>
+    <string name="Question4">What\'s your favourite theme?</string>
+    <string name="Question5">What are your strengths?</string>
+    <string name="Question6">In a crisis situation, are you the one in command or do you follow the instructions of others?</string>
+    <string name="Question7">How many hours a week do you spend watching anime? ( Enter a value in the text field )</string>
+    <string name="empty" translatable="false"> </string>
+    <string name="buttong2page">LET\'S BEGIN !</string>
+    <string name="txtGame2Page">Immerse yourself in the colourful world of anime with our general knowledge quiz, where each question will take you through different eras and iconic characters. Take up the challenge and try to answer all the questions in the time allowed!</string>
+    <string name="text_score_inf2">What\'s your favourite kind of anime?</string>
+    <string name="text_score_3">You got 3 out of 5 in the anime culture quiz, which is pretty good. It shows that you\'ve got a good grounding, but there are still details to learn if you want to become a real expert in this field!</string>
+    <string name="text_score_45">You can be proud of yourself! You\'ve earned the title of Otaku in this quiz on manga culture, that\'s great! You really know your stuff and you\'re really passionate about manga. We congratulate you on your achievements, there\'s always more to learn in this fascinating world!</string>
+    <string name="home">Home</string>
+    <string name="bilan" translatable="false"> </string>
+    <string name="textPseudo">"Enter a name :"</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="exit_com">EXIT</string>
+    <string name="home_com">HOME</string>
+    <string name="pseudo">pseudo</string>
+    <string name="btsuivant">Next</string>
+    <string name="btprecedent">Previous</string>
+    <string name="RB1_Q1">Action</string>
+    <string name="RB2_Q1">Adventure</string>
+    <string name="RB3_Q1">Comedy</string>
+    <string name="RB4_Q1">Horror</string>
+    <string name="RB5_Q1">Romance</string>
+    <string name="tvN">0</string>
+    <string name="SKBTV1Q3">Adventure</string>
+    <string name="SKBTV2Q3">Action</string>
+    <string name="SKBTV3Q3">Comedy</string>
+    <string name="Q4ImgDesc">image choice</string>
+    <string name="Q4imagev2">ImageV2</string>
+    <string name="Q4imagev1">ImageV1</string>
+    <string name="Q4imagev3">ImageV3</string>
+    <string name="Q4imagev4">ImageV4</string>
+    <string name="ImageV1_TV">COMBAT</string>
+    <string name="ImageV2_TV">ADVENTURE</string>
+    <string name="ImageV3_TV">FICTION</string>
+    <string name="ImageV4_TV">ACTION</string>
+    <string name="CB1_Q5">Courageous</string>
+    <string name="CB2_Q5">Intelligent</string>
+    <string name="CB3_Q5">Comical</string>
+    <string name="TvLeft_Q6">Follower</string>
+    <string name="TvRight_Q6">Leader</string>
+    <string name="TvHintQ7">Insert a number:</string>
+    <string name="EtHintQ7">Enter a number</string>
+    <string name="ResDesImage">Character Image</string>
+    <string name="btpartager">Share</string>
+    <string name="btReponses">My Responses</string>
+    <string name="TvResTitle">Result</string>
+    <string name="TvResDesc">Description</string>
+    <string name="btGoComment">Leave a Comment</string>
+    <string name="tvQ1_info">You answered in Question 1:</string>
+    <string name="tvQ2_info">You answered in Question 2:</string>
+    <string name="tvQ3_info">You answered in Question 3:</string>
+    <string name="tvQ4_info">You answered in Question 4:</string>
+    <string name="tvQ5_info">You answered in Question 5:</string>
+    <string name="tvQ6_info">You answered in Question 6:</string>
+    <string name="tvQ7_info">You answered in Question 7:</string>
+    <string name="tvRep_info">response</string>
+    <string name="btsauvegarder">Save</string>
+    <string name="btExit">Exit</string>
+    <string name="btHome">Home</string>
+    <string name="Tvpseudo">Username</string>
+    <string name="TitleCommentaire">Write a Comment</string>
+    <string name="TvAllCommentaire">Comments</string>
+    <string name="hintPseudoContent">content description username</string>
+    <string name="hintPseudo">Enter a Username</string>
+    <string name="comment_hint">Write your comment here</string>
+    <string name="comment_content_description">Input field for comments</string>
+    <string name="image_desc_item_genre">image description</string>
+    <string name="toastPseudo">Please enter a nickname</string>
+    <string-array name="studios_anime">
+        <item>Please select a studio</item>
+        <item>Studio Ghibli</item>
+        <item>Madhouse</item>
+        <item>Toei Animation</item>
+        <item>Bones</item>
+        <item>Kyoto Animation</item>
+    </string-array>
+    <string name="inputPseudo" />
+    <string name="exit">EXIT</string>
+</resources>

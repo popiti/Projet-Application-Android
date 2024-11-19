@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOne.GameOneQ1">
+
+    <TextView
+        android:id="@+id/textView2Q1"
+        android:layout_width="396dp"
+        android:layout_height="230dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeStepGranularity="2sp"
+        android:background="#791C0707"
+        android:fontFamily="casual"
+        android:text="@string/Question1"
+        android:textAlignment="center"
+        android:textColor="#00BCD4"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btSuivant_Q1"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/btsuivant"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/RG_Q1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/RB_Q1_Action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCA370"
+            android:text="@string/RB1_Q1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_Q1_Aventure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCA370"
+            android:text="@string/RB2_Q1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_Q1_Romance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCA370"
+            android:text="@string/RB3_Q1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_Q1_Horreur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCA370"
+            android:text="@string/RB4_Q1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/RB_Q1_Comedie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCA370"
+            android:text="@string/RB5_Q1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btPreced_Q1"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/btprecedent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

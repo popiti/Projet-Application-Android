@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOne.GameOneQ7">
+
+    <TextView
+        android:id="@+id/textView1Q7"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="50sp"
+        android:autoSizeStepGranularity="2sp"
+        android:background="#A81C0707"
+        android:fontFamily="casual"
+        android:text="@string/Question7"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btPreced_Q7"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/btprecedent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btSuivant_Q7"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/btsuivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etdn_Q7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="50dp"
+        android:background="#3CE6D8D8"
+        android:hint="@string/EtHintQ7"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/gold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1Q7"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

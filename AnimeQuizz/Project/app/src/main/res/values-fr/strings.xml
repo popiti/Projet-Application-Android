@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boutonAcceuil">Suivant</string>
+    <string name="checkboxAcceuil">Enregistrer les donnees</string>
+    <string name="gameTwoButtonImg">2eme Quizz</string>
+    <string name="textChoiceQuizz">Veuillez choisir entre les deux quizz. Le premier vous plongera dans un univers qui déterminera à quel personnage vous ressemblez le plus, le deuxième quizz évaluera votre culture générale sur les animes.</string>
+    <string name="Question1">""Quel est votre genre d\'anime préféré ?</string>
+    <string name="gametwo_q1">Comment s\'appelle la peluche qui accompagne Ichigo dans bleach ?</string>
+    <string name="gametwo_q2">Dans l\'anime \"Death Note\", quel est le nom du personnage principal qui trouve un carnet permettant de tuer n\'importe qui en écrivant leur nom dessus ?</string>
+    <string name="buttong2q1">Suivant</string>
+    <string name="buttong2q2">Suivant</string>
+    <string name="gametwo_q3">Qui est le mangaka derrière \"My Neighbor Totoro\" et \"Princess Mononoke\" ?</string>
+    <string name="buttong2q3">Suivant</string>
+    <string name="gametwo_q4">Dans \"One Piece\", quel est le nom du bateau pirate de Luffy ?</string>
+    <string name="buttong2page">COMMENCONS !</string>
+    <string name="txtGame2Page">Plongez dans l\'univers coloré des animes avec notre quiz de culture générale, où chaque question vous emmènera à travers les époques et les personnages emblématiques de l\'animation</string>
+    <string name="buttong2q4">Suivant</string>
+    <string name="Question2">Quel est votre studio d\'anime favori ?</string>
+    <string name="Question3">Évaluez votre intérêt pour ces genres d\'anime (1–10) :</string>
+    <string name="Question4">Quel est votre théme préférer ?</string>
+    <string name="Question5">Quels sont vos points forts ?</string>
+    <string name="Question6">Dans une situation de crise, êtes-vous celui qui prend le commandement ou suivez-vous les directives des autres ?</string>
+    <string name="Question7">Combien d\'heures consacrez-vous chaque semaine à regarder des anime ? ( Entrez une valeur dans le champs de texte )</string>
+    <string name="text_score_inf2">Vous êtes dans la tranche des personnes qui ne consomment pas énormément les mangas. Ça montre que vous commencez à peine à vous y intéressez, mais il y a encore tellement de choses à découvrir dans cet univers fascinant !</string>
+    <string name="text_score_3">Vous avez eu 3 sur 5 dans le quizz sur la culture d\'anime, c\'est plutôt pas mal. Cela montre que vous avez une bonne base, mais il y a encore des détails à apprendre pour devenir un vrai expert dans ce domaine !</string>
+    <string name="text_score_45">Vous pouvez être fier de vous ! Vous avez obtenu le titre d\'Otaku dans ce quiz sur la culture manga, c\'est génial ! Vous connaissez bien votre sujet et que vous êtes vraiment passionné par les mangas. On vous félicite pour vos exploits, il y a toujours plus à apprendre dans cet univers fascinant !</string>
+    <string name="home">Accueil</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="exit_com">QUITTER</string>
+    <string name="home_com">ACCEUIL</string>
+    <string name="write_com">Écrivez votre commentaire ici</string>
+    <string name="commentaires">Commentaires</string>
+    <string name="ajouter_un_commentaire">Ajouter un Commentaire</string>
+    <string name="votre_pseudo">Votre Pseudo</string>
+    <string name="textPseudo">"Entrez un nom :"</string>
+    <string name="inputPseudo" />
+    <string name="btsuivant" translatable="false">Suivant</string>
+    <string name="btprecedent" translatable="false">Precedent</string>
+    <string name="RB1_Q1" translatable="false">Action</string>
+    <string name="RB2_Q1" translatable="false">Aventure</string>
+    <string name="RB3_Q1" translatable="false">Comédie</string>
+    <string name="RB4_Q1" translatable="false">Horreur</string>
+    <string name="RB5_Q1" translatable="false">Romance</string>
+    <string name="tvN" translatable="false">0</string>
+    <string name="SKBTV1Q3" translatable="false">Aventure</string>
+    <string name="SKBTV2Q3" translatable="false">Action</string>
+    <string name="SKBTV3Q3" translatable="false">Comédie</string>
+    <string name="Q4ImgDesc" translatable="false">choiximage</string>
+    <string name="Q4imagev2" translatable="false">ImageV2</string>
+    <string name="Q4imagev1" translatable="false">ImageV1</string>
+    <string name="Q4imagev3" translatable="false">ImageV3</string>
+    <string name="Q4imagev4" translatable="false">ImageV4</string>
+    <string name="ImageV1_TV" translatable="false">COMBAT</string>
+    <string name="ImageV2_TV" translatable="false">AVENTURE</string>
+    <string name="ImageV3_TV" translatable="false">FICTION</string>
+    <string name="ImageV4_TV" translatable="false">ACTION</string>
+    <string name="CB1_Q5" translatable="false">Courageux</string>
+    <string name="CB2_Q5" translatable="false">Intelligent</string>
+    <string name="CB3_Q5" translatable="false">Comique</string>
+    <string name="TvLeft_Q6" translatable="false">Suiveur</string>
+    <string name="TvRight_Q6" translatable="false">Leader</string>
+    <string name="TvHintQ7" translatable="false">Insérer un chiffre :</string>
+    <string name="EtHintQ7" translatable="false">Entrez un chiffre</string>
+    <string name="ResDesImage" translatable="false">Character Image</string>
+    <string name="btpartager" translatable="false">Partager</string>
+    <string name="btReponses" translatable="false">Mes Réponses</string>
+    <string name="TvResTitle" translatable="false">Résultat</string>
+    <string name="TvResDesc" translatable="false">Description</string>
+    <string name="btGoComment" translatable="false">Laisser un Commentaire</string>
+    <string name="tvQ1_info">Vous avez Répondu dans la Question 1 :</string>
+    <string name="tvQ2_info">Vous avez Répondu dans la Question 2 :</string>
+    <string name="tvQ3_info">Vous avez Répondu dans la Question 3 :</string>
+    <string name="tvQ4_info">Vous avez Répondu dans la Question 4 :</string>
+    <string name="tvQ5_info">Vous avez Répondu dans la Question 5 :</string>
+    <string name="tvQ6_info">Vous avez Répondu dans la Question 6 :</string>
+    <string name="tvQ7_info">Vous avez Répondu dans la Question 7 :</string>
+    <string name="tvRep_info">reponse</string>
+    <string name="btsauvegarder">Sauvegarder</string>
+    <string name="btExit">Quitter</string>
+    <string name="btHome">Accueil</string>
+    <string name="Tvpseudo">Nom d\'utilisateur </string>
+    <string name="TitleCommentaire">Écrivez un Commentaire</string>
+    <string name="TvAllCommentaire">Commentaires</string>
+    <string name="hintPseudoContent">content description pseudo</string>
+    <string name="hintPseudo">Entrez un Nom d\'utilisateur</string>
+    <string name="comment_hint">Écrivez votre commentaire ici</string>
+    <string name="comment_content_description">Champ de saisie pour les commentaires</string>
+    <string name="image_desc_item_genre">image_desc</string>
+    <string name="toastPseudo">Veuillez entrer un nom</string>
+    <string name="exit">EXIT</string>
+    <string-array name="studios_anime">
+        <item>Veuillez choisir un studio</item>
+        <item>Studio Ghibli</item>
+        <item>Madhouse</item>
+        <item>Toei Animation</item>
+        <item>Bones</item>
+        <item>Kyoto Animation</item>
+    </string-array>
+</resources>

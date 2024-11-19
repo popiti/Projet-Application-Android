@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOne.GameoneCommentaires">
+
+    <EditText
+        android:id="@+id/etCommentaire"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="1dp"
+        android:background="#FFFFFF"
+        android:textColorHint="#EF6C00"
+        android:hint="@string/comment_hint"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <RatingBar
+        android:id="@+id/ratingBarComm"
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/gray"
+        android:progressTint="@color/gold"
+        android:stepSize="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPseudo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/navy"
+        android:gravity="center|center_vertical"
+        android:text="@string/TvAllCommentaire"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBarComm" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/btHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvCommentaires" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/btExit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvCommentaires" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCommentaires"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:background="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btSaveComm"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="#000000"
+        android:text="@string/btsauvegarder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ratingBarComm"
+        app:layout_constraintTop_toBottomOf="@+id/etPseudo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/navy"
+        android:gravity="center"
+        android:text="@string/TitleCommentaire"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:autoSizeMaxTextSize="13sp"
+        android:autoSizeMinTextSize="11sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/Tvpseudo"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCommentaire" />
+
+    <EditText
+        android:id="@+id/etPseudo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:autofillHints="username"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/hintPseudo"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#EF6C00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/etCommentaire" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
